@@ -3,7 +3,7 @@ package com.wangl;
 /**
  * Created by seentech on 2016/12/20.
  */
-public class Solution {
+public class Solution1 {
     public int JumpFloor(int target) {
         if(target == 1){
             return 1;
@@ -18,7 +18,7 @@ public class Solution {
     }
 
     public static void main(String [] args){
-        com.wangl.Solution solution = new com.wangl.Solution();
-        System.out.println(solution.JumpFloor(3));
+        Solution1 solution1 = new Solution1();
+        System.out.println(solution1.JumpFloor(3));
     }
 }
